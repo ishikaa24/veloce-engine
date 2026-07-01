@@ -15,7 +15,7 @@ node_modules
 # environment files
 .env
 .env.*
-!.env.example
+.env.example
 
 # build and tool caches
 .vite/
@@ -66,10 +66,8 @@ Thumbs.db
 .cursor/rules/nx-rules.mdc
 .github/instructions/nx.instructions.md
 
-# Replit
 .cache/
 .local/
 
-# Replit files
-.replit
-.replitignore
+.deploy
+.deployignore
